@@ -1,0 +1,55 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MoEngage\"><param name=\"android-package\" value=\"com.moengage.cordova.MoECordova\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-moengage-core": {
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-moengage-core.MoECordova",
+      "file": "plugins/cordova-moengage-core/www/MoECordova.js",
+      "pluginId": "cordova-moengage-core",
+      "clobbers": [
+        "MoECordova"
+      ]
+    },
+    {
+      "id": "cordova-moengage-core.MoEConstants",
+      "file": "plugins/cordova-moengage-core/www/MoEConstants.js",
+      "pluginId": "cordova-moengage-core",
+      "clobbers": [
+        "MoEConstants"
+      ]
+    },
+    {
+      "id": "cordova-moengage-core.MoEJsonProvider",
+      "file": "plugins/cordova-moengage-core/www/MoEJsonProvider.js",
+      "pluginId": "cordova-moengage-core",
+      "clobbers": [
+        "MoEJsonProvider"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-moengage-core": "9.0.0"
+  }
+}
