@@ -1,0 +1,10 @@
+{
+  "cordova-moengage-core": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-moengage-core"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
