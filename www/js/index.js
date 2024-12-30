@@ -27,7 +27,7 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 
-    	var moe = MoECordova.init("Z1UDNSWJALFR3UTPWWMCSF5Z");
+    	var moe = MoECordova.init("XXXXXXXXXXXXXXXXXXXXXXXXX");
 
     	moe.on('onInAppShown', function(inAppInfo) {
           	console.log('InApp Shown with Info: ' + JSON.stringify(inAppInfo));
